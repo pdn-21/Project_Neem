@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\workshops\\Project_Neem\\Backend\\Backend.csproj": {}
+    "D:\\WorkingProject\\Project_Neem\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "D:\\workshops\\Project_Neem\\Backend\\Backend.csproj": {
+    "D:\\WorkingProject\\Project_Neem\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\workshops\\Project_Neem\\Backend\\Backend.csproj",
+        "projectUniqueName": "D:\\WorkingProject\\Project_Neem\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "D:\\workshops\\Project_Neem\\Backend\\Backend.csproj",
-        "packagesPath": "C:\\Users\\SRTH-USER\\.nuget\\packages\\",
-        "outputPath": "D:\\workshops\\Project_Neem\\Backend\\obj\\",
+        "projectPath": "D:\\WorkingProject\\Project_Neem\\Backend\\Backend.csproj",
+        "packagesPath": "C:\\Users\\tpsde\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkingProject\\Project_Neem\\Backend\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\SRTH-USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\tpsde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -36,13 +42,18 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.12, )"
@@ -61,6 +72,10 @@
               "target": "Package",
               "version": "[8.0.2, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.5.0, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.2, )"
@@ -68,6 +83,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.5.0, )"
             }
           },
           "imports": [
@@ -89,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

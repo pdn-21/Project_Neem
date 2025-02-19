@@ -2,8 +2,12 @@ using Microsoft.OpenApi.Models;
 using Microsoft.OpenApi.Services;
 using Backend.Data;
 using Microsoft.EntityFrameworkCore;
+using DotNetEnv;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Load Environment Variables from .env file
+Env.Load();
 
 // Add services to the container.
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -21,6 +25,16 @@ builder.Services.AddSwaggerGen(c =>
         Description = "API Documentation for NEEM Project"
     });
 });
+
+// Register DbContext with connection string from .env
+var dbConnect = Environment.GetEnvironmentVariable("DB_CONNECTION_STRING");
+if (string.IsNullOrEmpty(dbConnect))
+{
+    throw new InvalidOperationException("DB_CONNECTION_STRING is not set in the environment variables.");
+}
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseMySql(dbConnect, ServerVersion.AutoDetect(dbConnect)));
 
 // Add CORS policy
 builder.Services.AddCors(options =>
