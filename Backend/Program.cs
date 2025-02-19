@@ -10,9 +10,9 @@ var builder = WebApplication.CreateBuilder(args);
 Env.Load();
 
 // Add services to the container.
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"), 
-    ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
+// builder.Services.AddDbContext<AppDbContext>(options =>
+//     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"), 
+//     ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -20,9 +20,14 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo
     {
-        Title = "NEEM Project API",
+        Title = "NEEM API Documentation",
         Version = "v1",
-        Description = "API Documentation for NEEM Project"
+        Description = "API Documentation for NEEM",
+        Contact = new OpenApiContact
+        {
+            Name = "NEEM Development Team",
+            Email = "tps.developers2023@gmail.com"
+        }
     });
 });
 

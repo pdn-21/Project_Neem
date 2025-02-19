@@ -12,7 +12,7 @@ namespace Backend.Models
         public string Password { get; set; }
         public string Email { get; set; }
         public string Fullname { get; set; }
-        public int Role { get; set; }
+        public int RoleId { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
     }
