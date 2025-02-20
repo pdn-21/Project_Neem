@@ -335,3 +335,11 @@ E:\Project_Neem\Backend\obj\Debug\net8.0\refint\Backend.dll
 E:\Project_Neem\Backend\obj\Debug\net8.0\Backend.pdb
 E:\Project_Neem\Backend\obj\Debug\net8.0\Backend.genruntimeconfig.cache
 E:\Project_Neem\Backend\obj\Debug\net8.0\ref\Backend.dll
+D:\workshops\Project_Neem\Backend\bin\Debug\net8.0\DotNetEnv.dll
+D:\workshops\Project_Neem\Backend\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\workshops\Project_Neem\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\workshops\Project_Neem\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\workshops\Project_Neem\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\workshops\Project_Neem\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\workshops\Project_Neem\Backend\bin\Debug\net8.0\Sprache.dll
+D:\workshops\Project_Neem\Backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
