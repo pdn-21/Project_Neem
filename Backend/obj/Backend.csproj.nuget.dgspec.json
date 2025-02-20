@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project_Neem\\Backend\\Backend.csproj": {}
+    "D:\\workshops\\Project_Neem\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "E:\\Project_Neem\\Backend\\Backend.csproj": {
+    "D:\\workshops\\Project_Neem\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project_Neem\\Backend\\Backend.csproj",
+        "projectUniqueName": "D:\\workshops\\Project_Neem\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "E:\\Project_Neem\\Backend\\Backend.csproj",
-        "packagesPath": "C:\\Users\\tpsde\\.nuget\\packages\\",
-        "outputPath": "E:\\Project_Neem\\Backend\\obj\\",
+        "projectPath": "D:\\workshops\\Project_Neem\\Backend\\Backend.csproj",
+        "packagesPath": "C:\\Users\\SRTH-USER\\.nuget\\packages\\",
+        "outputPath": "D:\\workshops\\Project_Neem\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tpsde\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\SRTH-USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -101,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
